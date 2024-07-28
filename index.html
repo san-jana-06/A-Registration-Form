@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charlet="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Student Registration Form</h1>
+    <form id="registrationForm">
+      <div class="input-text" id="Fullname">
+        Name:<input type="text" placeholder="Enter Your Name"  name="Fullname" required>
+        </div>
+
+      <div class="input-text" id="DOB">
+        Date of Birth:<input type="date" placeholder="Enter Your DOB"  name="Date of Birth" >
+        </div>
+      <div class="input-text"id="Emailid">  
+        Email id:<input type="text" placeholder="Enter Your Email"  name="Email id"  >
+        </div>
+
+      <div class="input-text"id="Password">      
+        Password:<input type="password" placeholder=" Enter Your Password"  name="Password">
+       </div>
+
+      <div class="input-text"id="Phoneno">
+        Phone no:<input type="number" placeholder=" Enter Your Phone no." name="Phone no." required>
+       </div>
+
+      <div class="input-text"id="Address">
+       Address:<input type="text" placeholder=" Enter Your Address"  name="Address" >
+        </div>
+
+      <div class="input-text">                 
+        Gender: <input type="radio" value="Male" name="Gender" >
+        <label >Male</label>
+        <input type="radio"  value="Female" name="Gender" >
+        <label >Female</label>
+        </div>
+        <div class="input-text">
+          <select class="course" name="course">
+            <option>select a course </option>
+            <option>B.tech </option>
+            <option>BA</option>
+            <option>B Com</option>
+            <option>Bsc</option>
+          </select>
+        </div>
+        <div class="input-text">
+          <input type="Submit" class="button" value="Submit" id="Submit">
+
+
+    </form>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
